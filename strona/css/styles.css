@@ -1,0 +1,68 @@
+
+  h1 {
+    color: rgb(21, 21, 175);
+    position: relative;
+    left: 30px;
+    top: 30px;
+  }
+  p {
+    color: rgb(10, 5, 5);
+  }
+div#container {
+    height: 1100px;
+    width: 1325px;
+    padding: 1em;
+    background-color: rgb(65, 62, 62);
+    
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    left: 50px;
+    top: 80px;
+}
+
+div.box {
+    width: 1325px;
+    height: 200px;	
+    background-color: rgb(90, 90, 170);
+    text-align: center;
+	
+}
+
+
+#navBar {
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	background: #E7E7E7;
+	-moz-box-shadow: 10px 10px 10px #ccc;
+	-webkit-box-shadow: 10px 10px 10px #ccc;
+	-ms-box-shadow: 10px 10px 10px #ccc;
+	-o-box-shadow: 10px 10px 10px #ccc;
+	box-shadow: 10px 10px 10px #ccc;
+}
+
+#navBar a {
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+
+#navBar a:hover {
+	color: #000;
+	background: #B9B9B9;
+	text-decoration: none;
+}
+
+#navBar a.selected {
+	color: #000;
+	background: #B9B9B9;
+	text-decoration: none;
+}
+.wrap {
+	float: left;
+	margin: 5px;
+}
