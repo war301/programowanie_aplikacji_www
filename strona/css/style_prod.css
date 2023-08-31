@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(231, 189, 151);
+}
+h1 {
+    color: rgb(100, 100, 158);
+
+    font-family: sans-serif;
+}
+h2 {
+    color: rgb(85, 85, 124);
+
+    font-family: sans-serif;
+}
+th {
+    color: rgb(43, 145, 52);
+    border: 3px solid rgb(50, 29, 126);
+
+    font-family: 15px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+td {
+    color: rgb(7, 7, 7);
+    border: 1px solid rgb(50, 29, 126);
+
+    font-family: 15px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: auto;
+}
+button{
+    background: rgb(107, 102, 97);
+}
+#przycisk {
+    font: 20px serif;
+}
+.flexbox-conteiner{
+    padding: 3px;
+    border: 1px solid rgb(50, 29, 126);
+
+    justify-content: center;
+    width: 75%;
+}
+.flexbox-conteiner div{
+    margin: 3px;
+    border: 1px solid rgb(50, 29, 126);
+    width: auto;
+    
+}
