@@ -1,0 +1,32 @@
+
+<div style="position: absolute; top: 40px;">    
+<h1>Kontakt</h1>
+<p><b>Dziękujemy</b> za wysłanie informacji.<i>MIŁEGO DNIA.</i></p>
+</div>
+<div style="position: absolute; top: 200px;">
+<form action="https://formsubmit.co/arekkulesza301@gmail.com" method="post">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="" required><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="" required><br>
+    <label >email:</label><br>
+    <input type="email" id="email" name="email" value="" required><br>
+    <label >opis:</label><br>
+    <input type="text" id="opis" name="opis" placeholder="opis" required><br>
+    <button type="submit">Send</button><br>
+  </form>
+</div>
+<div style="position: absolute; top: 500px;">
+    <p><u>Postaramy się odpowiedzieć jak najszybciej.</u></p>
+</div>
+<img id="animacjatestowa1" style="position: absolute; top: 600px;" src="..\stronahtml\img\dziekuje.jpg" alt="nr1" width="200" height="200" class="wrap">
+<script>
+	$("#animacjatestowa1").on("click",function(){
+		$(this).animate({
+		width: "500px",
+		opacity: 0.4,
+		frontSize: "3em",
+		borderwidth: "10px"
+		},1500);
+	});
+</script> 
